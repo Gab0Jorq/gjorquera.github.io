@@ -3,12 +3,12 @@ body{
   margin:auto;
 }
 
-p {
+/* p { */
   /* font-size:1.5em; */
-  font-size:20px;
-  color:white;
-  padding:50px;
-}
+  /* font-size:20px; */
+  /* color:white; */
+  /* padding:50px; */
+/* } */
 
 header{
   height:50%; 
@@ -18,6 +18,10 @@ header{
   background-image:url("../img/ferris_sweep.webp"); 
   background-size: cover; 
   background-position: center;
+}
+
+main {
+  background-color: lawngreen;
 }
 
 .titulo {
@@ -33,3 +37,23 @@ header{
   color:black;
   padding:30px;
 }
+
+.product_img {
+  width: 50%;
+  height: 50%;
+  margin:2%;
+  float:left;
+  /* inline-size: 30%; */
+}
+
+.product_text {
+  text-align: center;
+  padding-top: 50px;
+  margin-right: 40px;
+}
+
+section {
+  /* padding:5%; */
+  inline-size: auto;
+}
+
