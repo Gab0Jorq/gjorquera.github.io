@@ -1,0 +1,14 @@
+.boxes{
+    display:flex;
+    justify-content:space-around;
+}
+
+.box{
+    background-color: aqua;
+    /* width:25%; */
+    /* height: 25%; */
+}
+
+.box img{
+    max-width: 100%;
+}
