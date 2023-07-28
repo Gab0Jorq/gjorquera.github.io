@@ -1,34 +1,94 @@
+body {
+    background-color: #000000;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Tilt Warp', cursive;
+}
+
 header {
-    /* Layout Properties */
-    top: 0px;
-    left: 0px;
-    width: 1280px;
-    height: 73px;
-    /* UI Properties */
-    background: #000000 0% 0% no-repeat padding-box;
-    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo {
-    top: 7px;
-left: 530px;
-width: 221px;
-height: 59px;
-text-align: left;
-font: normal normal medium 50px/59px Raleway;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
 }
 
 .seccion_1 {
-    /* Layout Properties */
     top: 73px;
     left: 0px;
-    width: 1280px;
-    height: 727px;
-    /* UI Properties */
-    /* background: transparent url('assets/img/bg-header.jpg') 0% 0% no-repeat padding-box; */
-    /* opacity: 1; */
-    background-image: asset('assets/img/bg-header.jpg');
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.seccion_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+}
+
+.seccion_3 {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background: #1E1A13 0% 0% no-repeat padding-box;
+    opacity: 80%;
+}
+
+.seccion_4{
+    width:100%;
+    height: 600px;
+    background-color: #000000;
+    padding: 50px;
+}
+
+.img_principal {
+    width: 100%;
+    height: auto;
+}
+
+
+.parrafo {
+    width: 30%;
+    height: auto;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.img_parrafo {
+    max-width: 100%;
+    height: auto;
+}
+
+.titulo_iconos {
+    padding: 50px;
+    font-size:50px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.flex {
+    margin: 0 auto;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: flex;
+    justify-content:center;
+    color: #FFFFFF;
+}
+
+.galeria{
+    display:flex;
+    max-width: 20%;
+    height: auto;
+    
 }
