@@ -11,10 +11,30 @@ header {
     justify-content: center;
 }
 
+footer {
+    display: flex;
+    color:#FFFFFF;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1A13;
+    height: 100px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover {
+    color: green;
+  }
+
 .titulo {
     display: flex;
     color: #FFFFFF;
     align-items: center;
+    font-size:50px;
 }
 
 .seccion_1 {
@@ -45,7 +65,7 @@ header {
 
 .seccion_4{
     width:100%;
-    height: 600px;
+    height: 400px;
     background-color: #000000;
     padding: 50px;
 }
@@ -79,16 +99,20 @@ header {
 
 .flex {
     margin: 0 auto;
-    padding-left: 300px;
-    padding-right: 300px;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;   
     color: #FFFFFF;
+    padding:10px
 }
 
 .galeria{
     display:flex;
-    max-width: 20%;
+    max-width: 80%;
     height: auto;
-    
+}
+
+.fotos_galeria{
+    max-width: 35%;
+    justify-content: space-around;
+    padding:20px
 }
