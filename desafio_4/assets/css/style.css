@@ -31,3 +31,9 @@ label{
 .precio_oferta{
     color:#28a745;
 }
+
+.img{
+    display:flex;
+    align-items: center;
+    width: 10%;
+}
