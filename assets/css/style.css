@@ -9,3 +9,7 @@ h1{
 .about_me{
     size:50px
 }
+
+.link_clickable{
+    cursor: pointer;
+}
